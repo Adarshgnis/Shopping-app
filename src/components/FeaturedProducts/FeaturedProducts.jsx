@@ -50,7 +50,7 @@ const FeaturedProducts = ({type}) => {
         <div className="bottom">
             {data.map(item=>
                     <Card item={item} key={item.id}/>
-                )}
+            )}
         </div>
     </div>
   )
